@@ -1,4 +1,4 @@
-# Fusion_hg38
+## Fusion_hg38
 
 Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here are the new hightlights:
 
@@ -11,7 +11,7 @@ Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here 
 2. Currently, this Fusion pipeline is designed to work for 3 main projects: PE-CGS, ALCHEMIST and CPTAC3
 
 
-Major Updates:
+## Major Updates:
 
 1. updated STAR version=2.7.2c to STAR v2.7.8a 
 2. updated STAR-Fusion=1.7.0   to STAR-Fusion Release v1.10.0 (https://github.com/STAR-Fusion/STAR-Fusion/releases/tag/v1.10.0)
