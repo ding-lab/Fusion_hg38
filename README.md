@@ -28,7 +28,7 @@ Adapted from [Dan Cui Zhou's hg38 pipeline v2.2](https://github.com/sscien/Fusio
 
 ### Cluster: Compute1
 
-### Compute resources: at least 50GB MEM and 100 GB disk space for each sample
+### Compute resources: at least 50GB MEM and 150 GB disk space for each sample
 
 Three tools are used for fusion calling:
 Databases and references were downloaded from their respective websites.
