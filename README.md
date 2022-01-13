@@ -23,8 +23,11 @@ Last updated: 01/13/22
 Adapted from [Dan Cui Zhou's hg38 pipeline v2.2](https://github.com/sscien/Fusion_hg38) and Qingsong Gao's hg19 pipeline
 
 VERSION: v2.6
+
 Build: hg38 (GRCh38_gencode_v31)
+
 Cluster: Compute1
+
 Compute resources: at least 50GB MEM and 100 GB disk space for each sample
 
 Three tools are used for fusion calling:
