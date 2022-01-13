@@ -3,9 +3,13 @@
 Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here are the new hightlights:
 
 1. Suitable for batch jobs and large projects, providing the project has the catalog in these format
-   [Alchemist.RNA.Map](https://github.com/ding-lab/GDAN.catalog/blob/main/Alchemist/Alchemist.RNAMap.storage1.tsv)
-   [CPTAC3.BamMap](https://github.com/ding-lab/CPTAC3.catalog/blob/master/BamMap/storage1.BamMap.dat)
+
+   [Alchemist.RNA.Map](https://github.com/ding-lab/GDAN.catalog/blob/main/Alchemist/Alchemist.RNAMap.storage1.tsv);
+   
+   [CPTAC3.BamMap](https://github.com/ding-lab/CPTAC3.catalog/blob/master/BamMap/storage1.BamMap.dat);
+   
    [PE-CGS.FileMap](https://github.com/ding-lab/PE-CGS.catalog/blob/main/FileMap/FileMap.tsv)
+   
 2. Currently, this Fusion pipeline is designed to work for 3 main projects: PE-CGS, ALCHEMIST and CPTAC3
 
 
