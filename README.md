@@ -13,7 +13,7 @@ Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here 
 
 ## Major Updates:
 
-1. updated STAR version=2.7.2c to [STAR v2.7.8a]https://github.com/alexdobin/STAR/releases/tag/2.7.8a) 
+1. updated STAR version=2.7.2c to [STAR v2.7.8a](https://github.com/alexdobin/STAR/releases/tag/2.7.8a) 
 2. updated STAR-Fusion=1.7.0   to [STAR-Fusion Release v1.10.0](https://github.com/STAR-Fusion/STAR-Fusion/releases/tag/v1.10.0)
 3. updated ctat genome libs, from GRCh38_gencode_v31_CTAT_lib_Oct012019 to [GRCh38_gencode_v37_CTAT_lib_Mar012021](https://data.broadinstitute.org/Trinity/CTAT_RESOURCE_LIB/__genome_libs_StarFv1.10/)
 
