@@ -13,6 +13,8 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683399/
 ALCHEMIST: Bringing Genomic Discovery and Targeted Therapies to Early-Stage Lung Cancer
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4839167/
 
+Part of GDAN project
+https://github.com/ding-lab/GDAN.catalog
 
 ****
 
