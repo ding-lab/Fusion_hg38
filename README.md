@@ -71,6 +71,52 @@ Fixed bug that basically ignored Integrate calls
 Automatically compresses large Star fusion file
 Added a copy any fusion script so we can provide normal calls too (no longer filtering germline by default)
 
+## Usage
+
+1. pull fusion docker on compute1
+```
+LSF_DOCKER_VOLUMES="$STORAGE1_DINGLAB:$STORAGE1_DINGLAB" PATH="$STORAGE1_DINGLAB:$PATH" bsub -Is -q 'dinglab-interactive general-interactive' -G compute-dinglab -M 50G -R 'select[mem>50G] span[hosts=1] rusage[mem=50G]' -a 'docker(songyizhe/fusion:2.6)' /bin/bash -l
+```
+2. Read in samples and make directory and symblinks for each sample
+
+```
+## Worklog -- This is how I processed Alchemist data for fusion hg38 pipeline
+
+## cd to the folder for fusion analysis
+cd /storage1/fs1/dinglab/Active/Projects/ALCHEMIST/Alchemist_analysis/RNA-seq_Fusion_Alchemist_batch_01_11_22
+
+## download the ALCHEMIST catalog to the folder
+
+wget https://raw.githubusercontent.com/ding-lab/GDAN.catalog/main/Alchemist/Alchemist.RNAMap.storage1.tsv
+
+## Get the sample_name and save to samples.txt
+
+grep ALCH Alchemist.RNAMap.storage1.tsv | cut -f 1 | rev | cut -c6- | rev | sort | uniq > samples.txt
+
+# cut first column, reverse the character order, cut the last 6 character, reverse back, sort, keep unique sample names
+
+## make directories for each sample in the subfolder of the current folder.
+
+python makeDir_ris_alchemist.py samples.txt Alchemist.RNAMap.storage1.tsv .
+
+```
+
+
+3. activate conda env
+```
+conda activate Fusion
+```
+or 
+
+```
+source activate Fusion
+```
+4. Run fusion
+
+Example script (generated from step 2)
+```
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh ALCH-B2NW-TTP1-A ALCH-B2NW-TTP1-A_1.fastq.gz ALCH-B2NW-TTP1-A_2.fastq.gz 10
+```
 
 ## Contact
 
