@@ -32,8 +32,11 @@ Adapted from [Dan Cui Zhou's hg38 pipeline v2.2](https://github.com/sscien/Fusio
 
 Three tools are used for fusion calling:
 Databases and references were downloaded from their respective websites.
+
 STAR-Fusion is downloaded from https://github.com/STAR-Fusion/STAR-Fusion/wiki
+
 [EricScript](https://academic.oup.com/bioinformatics/article/28/24/3232/247436) is downloaded from https://sites.google.com/site/bioericscript
+
 Integrate is downloaded from https://sourceforge.net/p/integrate-fusion/wiki/Home/
 
 Fusion pipeline:
