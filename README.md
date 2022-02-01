@@ -85,6 +85,13 @@ Added a copy any fusion script so we can provide normal calls too (no longer fil
 
 ## Usage
 
+add the following into bashrc or bash_profile on compute1
+```
+export PATH=/storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/INTEGRATE_0_2_6/INTEGRATE-build/bin:$PATH
+export LD_LIBRARY_PATH="/storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/INTEGRATE_0_2_6/INTEGRATE-build/vendor/divsufsort/lib:$LD_LIBRARY_PATH"
+```
+
+
 1. pull fusion docker on compute1
 ```
 LSF_DOCKER_VOLUMES="$STORAGE1_DINGLAB:$STORAGE1_DINGLAB" PATH="$STORAGE1_DINGLAB:$PATH" bsub -Is -q 'dinglab-interactive general-interactive' -G compute-dinglab -M 50G -R 'select[mem>50G] span[hosts=1] rusage[mem=50G]' -a 'docker(songyizhe/fusion:2.6)' /bin/bash -l
