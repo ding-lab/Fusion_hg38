@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Activate environment
-
+#source /diskmnt/Projects/Users/ysong/program/anaconda3/etc/profile.d/conda.sh
 #conda activate Fusion
 
 # Read in arguments
