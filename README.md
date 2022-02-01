@@ -38,7 +38,7 @@ STAR-Fusion is downloaded from https://github.com/STAR-Fusion/STAR-Fusion/wiki
 [EricScript](https://academic.oup.com/bioinformatics/article/28/24/3232/247436) is downloaded from https://sites.google.com/site/bioericscript
 
 ```
-EricScript is currently located in /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/ericscript-0.5.5 
+EricScript is currently located in /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/ericscript-0.5.5
 since the docker version EricScript have this issue https://github.com/ding-lab/Fusion_hg38/issues/1
 ```
 
