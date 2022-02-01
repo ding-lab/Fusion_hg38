@@ -96,6 +96,10 @@ export LD_LIBRARY_PATH="/storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeli
 ```
 LSF_DOCKER_VOLUMES="$STORAGE1_DINGLAB:$STORAGE1_DINGLAB" PATH="$STORAGE1_DINGLAB:$PATH" bsub -Is -q 'dinglab-interactive general-interactive' -G compute-dinglab -M 50G -R 'select[mem>50G] span[hosts=1] rusage[mem=50G]' -a 'docker(songyizhe/fusion:2.6)' /bin/bash -l
 ```
+The lastest docker image is here 
+
+https://hub.docker.com/repository/registry-1.docker.io/songyizhe/fusion/
+
 2. Read in samples and make directory and symblinks for each sample
 
 ```
@@ -123,12 +127,12 @@ python makeDir_ris_alchemist.py samples.txt Alchemist.RNAMap.storage1.tsv .
 
 3. activate conda env
 ```
-conda activate Fusion
+source activate Fusion
 ```
 or 
 
 ```
-source activate Fusion
+conda activate Fusion
 ```
 4. Run fusion
 
