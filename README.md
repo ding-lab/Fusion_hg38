@@ -85,7 +85,7 @@ Added a copy any fusion script so we can provide normal calls too (no longer fil
 
 ## Usage
 
-add the following into bashrc or bash_profile on compute1
+0. add the following into bashrc or bash_profile on compute1
 ```
 export PATH=/storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/INTEGRATE_0_2_6/INTEGRATE-build/bin:$PATH
 export LD_LIBRARY_PATH="/storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/INTEGRATE_0_2_6/INTEGRATE-build/vendor/divsufsort/lib:$LD_LIBRARY_PATH"
