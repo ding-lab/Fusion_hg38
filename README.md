@@ -37,7 +37,16 @@ STAR-Fusion is downloaded from https://github.com/STAR-Fusion/STAR-Fusion/wiki
 
 [EricScript](https://academic.oup.com/bioinformatics/article/28/24/3232/247436) is downloaded from https://sites.google.com/site/bioericscript
 
+```
+EricScript is currently located in /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/ericscript-0.5.5 
+since the docker version EricScript have this issue https://github.com/ding-lab/Fusion_hg38/issues/1
+```
+
 Integrate is downloaded from https://sourceforge.net/p/integrate-fusion/wiki/Home/
+
+```
+Integrate is located in /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/INTEGRATE_0_2_6
+```
 
 Fusion pipeline:
 Fusions are called by each tool then merged into a single file. This is done for tumor and normal RNA-Seq files individually.
