@@ -1,0 +1,17 @@
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR4189724 SRR4189724_1.fastq.gz SRR4189724_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR4189748 SRR4189748_1.fastq.gz SRR4189748_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR4189766 SRR4189766_1.fastq.gz SRR4189766_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR4189769 SRR4189769_1.fastq.gz SRR4189769_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR4189780 SRR4189780_1.fastq.gz SRR4189780_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR5497001 SRR5497001_1.fastq.gz SRR5497001_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030208 SRR6030208_1.fastq.gz SRR6030208_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030213 SRR6030213_1.fastq.gz SRR6030213_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030216 SRR6030216_1.fastq.gz SRR6030216_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030235 SRR6030235_1.fastq.gz SRR6030235_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030247 SRR6030247_1.fastq.gz SRR6030247_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR6030253 SRR6030253_1.fastq.gz SRR6030253_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR8625451 SRR8625451_1.fastq.gz SRR8625451_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR8625467 SRR8625467_1.fastq.gz SRR8625467_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR8625489 SRR8625489_1.fastq.gz SRR8625489_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR8625492 SRR8625492_1.fastq.gz SRR8625492_2.fastq.gz 10
+bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg38_scripts/fusion_pipeline_ris_v1.sh SRR8625525 SRR8625525_1.fastq.gz SRR8625525_2.fastq.gz 10
