@@ -1,5 +1,17 @@
 ### 2022 CPTAC3 fusion pipeline
 
+
+
+/storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/Multiple_myeloma/MM_RNA_seq_Fusion_batch_0122/toRun_priority_an.sh
+
+
+batchfusion -g /compute-dinglab/EJ /storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/Multiple_myeloma/MM_RNA_seq_Fusion_batch_0122/toRun_priority_an.sh
+
+batchfusion -g /compute-dinglab/EJ /storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/Multiple_myeloma/MM_RNA_seq_Fusion_batch_0122/toRun_priority_an.sh
+
+cd /storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/Multiple_myeloma/MM_RNA_seq_Fusion_batch_0122/
+batchfusion /storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/Multiple_myeloma/MM_RNA_seq_Fusion_batch_0122/toRun_priority_an.sh
+
 cd /storage1/fs1/dinglab/Active/Projects/ysong/Projects/Fusion_hg38/
 mkdir GBM
 cd GBM
