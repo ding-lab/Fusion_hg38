@@ -4,6 +4,47 @@ https://sourceforge.net/p/integrate-fusion/wiki/Home/
 
 ## We updated the Intergrate annotation files to in consistence with the updated STAR_Fusion and EricScript
 
+Installation
+For details of Installation of INTEGRATE, go to [Installation].
+
+Preparation
+(1) Get annotation from UCSC Genome Browser http://genome.ucsc.edu
+
+For details of downloading annotation, go to [annotation].
+annot.ucsc.txt, containing UCSC genes can be download at https://sourceforge.net/projects/integrate-fusion/files/.
+
+(2) Get accepted_hits.bam and unmapped.bam
+
+by mapping tumor RNA-Seq reads with tools like TopHat http://tophat.cbcb.umd.edu/.
+￼￼￼￼￼￼
+Note: please use TopHat 2.
+
+(3) Get dna.tumor.bam
+
+by mapping WGS tumor reads with tools like BWA http://bio-bwa.sourceforge.net/.
+
+Note: BWA turns soft-clip on by default. Make sure soft-clip is turn on if using other tools
+
+(4) If there are normal WGS reads, get dna.normal.bam
+
+(5) index all the BAM files with samtools index (refer to http://samtools.sourceforge.net/).
+
+(6) build BWTs
+mkdir ./bwts
+Integrate mkbwt reference.fasta*
+
+Integrate mkbwt /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/STAR-Fusion_dependencies/GRCh38_gencode_v37_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa*
+
+Note: This step takes about 20-30 minutes, but only needs to run once.
+
+Call Fusions
+Integrate fusion (options) reference.fasta annotation.txt directory_to_bwt accepted_hits.bam unmapped.bam (dna.tumor.bam dna.normal.bam)
+
+options
+For details of options, go to [options]
+
+output files
+For details of output files, go to [output]
 
 annotation  
 Authors: Jin
