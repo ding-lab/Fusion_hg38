@@ -21,13 +21,13 @@ Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here 
 
 Adapted from [Dan Cui Zhou's hg38 pipeline v2.2](https://github.com/sscien/Fusion_hg38) and Qingsong Gao's hg19 pipeline
 
-### VERSION: v2.6
+### VERSION: v2.7
 
-### Build: hg38 (GRCh38_gencode_v31)
+### Build: hg38 (GRCh38_gencode_v37 latest version supported by STAR-Fusion)
 
-### Cluster: Compute1
+### Cluster: RIS Compute1
 
-### Compute resources: at least 50GB MEM and 150 GB disk space for each sample
+### Compute resources: at least 60GB MEM and 150 GB scratch disk space for each sample
 
 Three tools are used for fusion calling:
 Databases and references were downloaded from their respective websites.
@@ -145,3 +145,13 @@ bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg
 EJ Song (y.song@wustl.edu)
 
 Thanks a lot to Qingsong and Daniel Cui Zhou who initially developed and optimized this pipeline.
+
+
+
+## Version Update:
+v2.2 Fusion hg38 build for katmai, annotation libs GRCh38_gencode_v31
+v2.3 Dockerized fusion hg38 v2.2 pipeline
+v2.4 Updated STAR v2.7.2c to STAR v2.7.8a; Updated STAR-Fusion v1.7.0 to STAR-Fusion v1.10.0
+v2.5 Fixed Erikscript error with docker
+v2.6 Updated STAR-Fusion and Integrate annotation libs to GRCh38_gencode_v37
+v2.7 Combined STAR-Fusion and Integrate Fusion alignment steps. Worked more efficient for batch jobs. Minor updates to accommodate changes of catalog and analysis summary files.
