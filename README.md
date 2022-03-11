@@ -1,4 +1,4 @@
-## Fusion_hg38
+## Fusion_GRCh38
 
 Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here are the new hightlights:
 
@@ -154,4 +154,4 @@ v2.3 Dockerized fusion hg38 v2.2 pipeline
 v2.4 Updated STAR v2.7.2c to STAR v2.7.8a; Updated STAR-Fusion v1.7.0 to STAR-Fusion v1.10.0
 v2.5 Fixed Erikscript error with docker
 v2.6 Updated STAR-Fusion and Integrate annotation libs to GRCh38_gencode_v37
-v2.7 Combined STAR-Fusion and Integrate Fusion alignment steps. Worked more efficient for batch jobs. Minor updates to accommodate changes of catalog and analysis summary files.
+v2.7 Combined STAR-Fusion and Integrate Fusion alignment steps. Worked more efficiently for batch jobs. Minor updates to accommodate changes of catalog and analysis summary files.
