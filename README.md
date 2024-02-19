@@ -10,7 +10,7 @@ Fusion Pipeline officially works on RIS compute1. :hugs: In the mean time, here 
    
 2. Currently, this Fusion pipeline is designed to work for 3 main projects: PE-CGS, ALCHEMIST and CPTAC3
 
-## Updates 02/29/23:
+## Updates 02/29/24:
 1. Added Arriba Fusion to the pipeline, now the fusion pipeline outputs include the fusion called by four fusion calling tools
 
 ## Updates 02/25/22:
