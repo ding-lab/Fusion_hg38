@@ -145,7 +145,7 @@ bash /storage1/fs1/dinglab/Active/Projects/PECGS/PECGS_pipeline/Fusion/Fusion_hg
 
 ## Contact
 
-EJ Song (y.song@wustl.edu)
+Yizhe EJ Song (y.song@wustl.edu)
 
 Thanks a lot to Qingsong and Daniel Cui Zhou who initially developed and optimized this pipeline.
 
